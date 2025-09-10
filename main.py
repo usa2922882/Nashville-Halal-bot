@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 import os
-
+from generate_pdf import generate_pdf
 BOT_TOKEN = "8210249353:AAFvDJZgX2O-aSVLaxKjbp9Sg0J3pT770uo"
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Assalomu alaykum! Bot ishga tushdi ✅")
