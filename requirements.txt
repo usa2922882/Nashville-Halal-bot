@@ -3,3 +3,4 @@ reportlab==4.0.4
 geopy==2.4.1
 Pillow==10.2.0
 aiohttp==3.9.5
+pip==25.2
